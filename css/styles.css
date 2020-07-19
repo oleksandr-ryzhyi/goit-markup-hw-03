@@ -373,6 +373,10 @@ p {
   padding-bottom: 94px;
 }
 
+/* .regular-customers-list:not(:last-child) {
+  margin-right: 30px;
+} */
+
 .regular-customers-list-item-link {
   display: flex;
   align-items: center;
@@ -388,16 +392,31 @@ p {
   background-color: var(--footer-bg-color);
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer-logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-right: 147px;
 }
 
 .address {
   font-style: normal;
+  margin-right: 69px;
+  padding-bottom: 60px;
 }
 
 .contacts-list-address {
@@ -407,18 +426,29 @@ p {
   color: #ffffff;
 }
 
+.contacts-list-address:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .contacts-list-item-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-appeal {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.social-links {
+  padding-top: 72px;
+  padding-bottom: 100px;
+  margin-right: 94px;
 }
 
 /* Портфолио */
